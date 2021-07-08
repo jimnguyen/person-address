@@ -16,7 +16,6 @@ public class PersonAddressConfig {
     @Bean
     CommandLineRunner commandLineRunner(PersonRepository personRepository, AddressRepository addressRepository) {
         return args -> {
-
             Person jim =
                     new Person(1, "Jim", "Nguyen",
                     new Address(1, 1 , "123 React Lane",
